@@ -88,3 +88,13 @@ let points = 110;
 let type = points > 100 ? 'gold' : 'silver';
 
 console.log(type);
+
+//Logical Operators
+let highIncome = true;
+let goodCredtiScore = true;
+let eligibleForLoan = highIncome && goodCredtiScore;
+console.log(eligibleForLoan);
+
+//NOT (!)
+let applicationsRefused = !eligibleForLoan;
+console.log(eligibleForLoan)
