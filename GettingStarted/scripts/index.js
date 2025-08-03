@@ -8,3 +8,6 @@ console.log(nombre);
 //No pueden emepezar con numeros (1name)
 //Tampoco space or hyphen (-)
 //Variable por linea
+typeof nombre;
+//En js todos los números son de tipo número 
+// el tipo undefined también es un valor en sí mismo
