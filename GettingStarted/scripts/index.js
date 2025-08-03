@@ -24,8 +24,15 @@ selectedColors[2] = 'green';
 console.log(selectedColors.length); //Un array es un data structure que usamos para representar una lista de items. 
 
 //Functions
+//Performing a task
 function greet(nombre, lastName) {
     console.log("Hello Worldddd" + nombre + ' ' + lastName);
 } //no necesitas añadir semcolon
 
-greet('John', 'Smith'); //el argumento es el actual value we suply for that parameter
+// Calculating a value
+function square(number) {
+    return number * number;
+}
+
+let number = square(2);
+console.log(number);
