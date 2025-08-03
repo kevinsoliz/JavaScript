@@ -56,3 +56,8 @@ console.log(++x); //primero se incrementa y luego muestra el valor, si lo pones 
 // Decrement (--)
 console.log(x--);
 console.log(x);
+
+//Assigment operators
+
+let n = 10;
+n += 5; //Additional assigment operator.
