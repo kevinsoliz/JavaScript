@@ -17,3 +17,8 @@ person['nombre'] = 'Mary';
 let selection = "nombre";
 person[selection] = 'Manuela'
 console.log(person.nombre);
+
+//Arrays:
+let selectedColors = ['red', 'blue']; //Array Literal, el length y el tipo pueden cambiar en runtime.
+selectedColors[2] = 'green';
+console.log(selectedColors.length); //Un array es un data structure que usamos para representar una lista de items. 
