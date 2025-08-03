@@ -36,3 +36,23 @@ function square(number) {
 
 let number = square(2);
 console.log(number);
+
+//Operators
+
+let x = 10;
+let y = 3;
+/*
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+console.log(x % y); //reminder
+console.log(x ** y); //Potencias: x elevado a y.
+*/
+
+// Increment (++)
+console.log(++x); //primero se incrementa y luego muestra el valor, si lo pones después, primero ves x y luego incrementa
+
+// Decrement (--)
+console.log(x--);
+console.log(x);
