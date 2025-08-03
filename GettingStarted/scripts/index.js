@@ -70,5 +70,11 @@ console.log(x < 1);
 console.log(x <= 1);
 
 //Equality 
-console.log(x === 1); //igual que
-console.log(x !== 1);
+//Strict Equality (Type + Value)
+console.log(1 === 1); 
+console.log('1' === 1);
+
+//Lose Equality (ignora el tipo, solo evalúa el value)
+console.log(1 == 1)
+console.log('1' == 1) //automáticamente convertira el valor derecho a String
+console.log(true == 1) //lo convierte a boolean
