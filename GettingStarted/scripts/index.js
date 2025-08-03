@@ -22,3 +22,10 @@ console.log(person.nombre);
 let selectedColors = ['red', 'blue']; //Array Literal, el length y el tipo pueden cambiar en runtime.
 selectedColors[2] = 'green';
 console.log(selectedColors.length); //Un array es un data structure que usamos para representar una lista de items. 
+
+//Functions
+function greet(nombre, lastName) {
+    console.log("Hello Worldddd" + nombre + ' ' + lastName);
+} //no necesitas añadir semcolon
+
+greet('John', 'Smith'); //el argumento es el actual value we suply for that parameter
