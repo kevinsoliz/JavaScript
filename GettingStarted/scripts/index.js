@@ -61,3 +61,14 @@ console.log(x);
 
 let n = 10;
 n += 5; //Additional assigment operator.
+
+//Comparison operators
+//Relational operators
+console.log(n > 20);
+console.log(x >= 1);
+console.log(x < 1);
+console.log(x <= 1);
+
+//Equality 
+console.log(x === 1); //igual que
+console.log(x !== 1);
