@@ -98,3 +98,21 @@ console.log(eligibleForLoan);
 //NOT (!)
 let applicationsRefused = !eligibleForLoan;
 console.log(eligibleForLoan)
+
+//Logical op. with non booleans!
+console.log(false || true);
+console.log(false || 'Kevin');
+console.log(false || 1);
+//Cuando el motor de javascript evalúa esta lógica va a interpretar essos
+//non booleans como truthy o -falsy: undefined, null, 0, false, '', NaN-
+//todo lo que no es falsy es truthy.
+
+//short-circuiting
+console.log(false || 1 || 2);
+//devuelve 1 porque es el primer valor truthy que encuentra.
+//Ejemplo real:
+
+let userColor = undefined;
+let defaultColor = 'blue';
+let currentColor = userColor || defaultColor; //Si tenemos un valor del usuario usamos ese, si no, el default
+console.log(currentColor);
