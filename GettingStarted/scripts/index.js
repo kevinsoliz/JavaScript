@@ -78,3 +78,13 @@ console.log('1' === 1);
 console.log(1 == 1)
 console.log('1' == 1) //automáticamente convertira el valor derecho a String
 console.log(true == 1) //lo convierte a boolean
+
+//Ternary operator
+// If  a customer has more than 100 points, 
+// they are a 'gold' customer, otherwise,
+// they are a 'sileve' customer.
+
+let points = 110;
+let type = points > 100 ? 'gold' : 'silver';
+
+console.log(type);
