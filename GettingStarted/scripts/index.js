@@ -1,13 +1,19 @@
 
-let nombre = "Kevin"; // String Literal
-let age = 30; // Number Literal
-let isApproved = true; // Boolean Literal
-let firstName = undefined; // no muy común
-let selectedColor = null; //  el usuario no ha elegido ningún color.
-console.log(nombre);
-//No pueden emepezar con numeros (1name)
-//Tampoco space or hyphen (-)
-//Variable por linea
-typeof nombre;
-//En js todos los números son de tipo número 
-// el tipo undefined también es un valor en sí mismo
+// null es un objeto
+//Crear un object:
+let person = {
+    nombre: "Kevin",
+    age: 30
+}; //Object Literal. Necesitamos dos Keys
+typeof person;
+
+
+//Dot notation
+person.age = 32;
+
+// Bracket Notation
+person['nombre'] = 'Mary';
+//por defecto usa el punto pero si quieres que el usuario acceda a uno de los valores:
+let selection = "nombre";
+person[selection] = 'Manuela'
+console.log(person.nombre);
