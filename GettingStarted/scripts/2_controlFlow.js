@@ -1,20 +1,18 @@
-let hour = 16;
 
-if (hour >= 6 && hour < 12) 
-    console.log("Good morning");
-else if (hour >= 12 && hour < 18)
-    console.log("Good afternoon");
-else 
-    console.log("Good evening");
 
-//loops
-for(let i = 0; i < 5; i++) {
-    if(i % 2 === 1) console.log(i);
+// for-in
+const person = {
+    nombre: 'kevin',
+    age: 30
 }
 
-// do-while
-let i = 9;
-do {
-    if (i % 2 !== 0) console.log(i);
-    i++;
-} while (i <= 5);
+for (let key in person)
+    console.log(key, person[key]);
+
+const colors = ['red', 'green', 'blue'];
+for (let index in colors)
+    console.log(index, colors[index]);
+
+// for-of
+for (let color of colors)
+    console.log(color);
