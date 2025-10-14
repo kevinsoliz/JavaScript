@@ -1,4 +1,3 @@
-
 // null es un objeto
 //Crear un object:
 let person = {
@@ -71,7 +70,7 @@ console.log(x <= 1);
 
 //Equality 
 //Strict Equality (Type + Value)
-console.log(1 === 1); 
+console.log(1 === 1);
 console.log('1' === 1);
 
 //Lose Equality (ignora el tipo, solo evalúa el value)
@@ -116,3 +115,18 @@ let userColor = undefined;
 let defaultColor = 'blue';
 let currentColor = userColor || defaultColor; //Si tenemos un valor del usuario usamos ese, si no, el default
 console.log(currentColor);
+
+switch (prompt("Cómo está el clima?")) {
+    case "lluvioso":
+        console.log("Llevate paraguas");
+        break;
+    case "soleado":
+        console.log("Vistete ligerito");
+        break;
+    case "nublado":
+        console.log("Sal al exteriosr");
+        break;
+    default:
+        console.log("No se encuentra el clima");
+        break;
+}
