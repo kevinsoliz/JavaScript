@@ -3,7 +3,7 @@
 // Math.floor(1.3) -> 1
 // 12 points -> suspended
 
-checkSpeed(130);
+//checkSpeed(130);
 
 function checkSpeed(speed) {
 
@@ -19,6 +19,26 @@ function checkSpeed(speed) {
     else
         console.log('Ok');
 }
+
+function checkSpeed2(speed) {
+    const speedLimit = 70;
+    const kmPerPoint = 5;
+
+    if (speed < speedLimit + kmPerPoint) {
+        console.log('Ok');
+        return;
+    }
+
+    const points = Math.floor((speed - speedLimit) / kmPerPoint);
+    if (points >= 12)
+        console.log('License suspended');
+    else
+        console.log('Points: ', points);
+
+}
+
+checkSpeed(74);
+checkSpeed2(74);
 
 // speed, por cada 5 km un punto, con 12 puntos licencia suspendida.
 //  operacion = puntos totales
