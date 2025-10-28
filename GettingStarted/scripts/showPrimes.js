@@ -24,4 +24,4 @@ function isPrime(number) {
     return true;
 }
 
-showP2(20);
+showP2(4);
