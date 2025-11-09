@@ -70,7 +70,4 @@ const img = new HtmlImageElement();
 const elements = [
     new HtmlSelectElement([1,2,3]),
     new HtmlImageElement('http://')
-];
-
-for(let element of elements)
-    console.log(element.render());
+    ]
